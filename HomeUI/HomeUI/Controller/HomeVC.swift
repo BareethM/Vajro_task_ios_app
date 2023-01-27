@@ -12,8 +12,8 @@ class HomeVC: UIViewController {
     @IBOutlet var homeView: HomeView!
     
     
-    private lazy var viewModel:HomeModel = {
-        return HomeModel()
+    private lazy var viewModel:HomeViewModel = {
+        return HomeViewModel()
     }()
     
     
